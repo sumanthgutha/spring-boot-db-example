@@ -1,0 +1,74 @@
+{
+    "adobeTarget": {
+        "url": "/adobe-target/v3/experience",
+        "refundsExperienceKey": "",
+        "sortExperienceKey": "OPT0502-QA",
+        "OPT0529": {
+            "activity": "{\"activityName\":\"OPT0529-AB-BE-FSM-SSR-NonProd\",\"experienceKey\":\"OPT0529\",\"experienceName\":\"A_OPT0529_Ctrl\",\"type\":\"server\",\"attributes\":{}}",
+            "locales": [
+                "fr_CA",
+                "en_CA",
+                "fr-CA",
+                "en-CA"
+            ]
+        }
+    },
+    "graphQl": {
+        "url": "/services/graphql"
+    },
+    "production": false,
+    "qa": false,
+    "dev": false,
+    "i18nPath": "./assets/i18n/",
+    "i18nExtra": "./intl/assets/",
+    "domain": "",
+    "host": "https://gateway-test.airfaresearch-nonp-642233-55428b54439b8b085d89bd0e707bd5ad-0000.us-south.containers.appdomain.cloud",
+    "path": "/booking/api/search",
+    "apiTimeOut": 65000,
+    "dcfCDNUrl": "https://qa.cdn.aa.com/dcfsmartweb/dist/dcf-smartwebservice-cf-qa.js",
+    "dynatraceCdnUrl": "",
+    "utag": {
+        "tealiumAccount": "aa",
+        "tealiumProfile": "main",
+        "tealiumEnvironment": "dev"
+    },
+    "sessionTimer": {
+        "idleWarningTimeInMinutes": 12,
+        "sessionEndTimeInMinutes": 2
+    },
+    "aaBaseUrl": "https://dev.aa.com",
+    "orchestratorJourney": "https://stage.aa.com/airfare-sales/booking/journey/search",
+    "legacyDeepLinkUrl": "/goto/passenger",
+    "loginUrl": "/loyalty/login?uri=/loyalty/login&previousPage=/booking/find-flights",
+    "seatMapUrl": "/seats/view",
+    "searchUrl": "/booking/find-flights",
+    "supportLanguages": [
+        "en",
+        "es",
+        "fr",
+        "pt"
+    ],
+    "airportInformationUrl": "/home/ajax/v2/airportLookup",
+    "benefitsServiceUrl": "https://gateway-test.airfaresearch-nonp-642233-55428b54439b8b085d89bd0e707bd5ad-0000.us-south.containers.appdomain.cloud/booking/api/search/benefits/v2",
+    "benefitsServicePath": "/booking/api/search/benefits/v2",
+    "nearestAirportServiceUrl": "/airport/nearestAirport",
+    "enableFareTemplates": true,
+    "redirectToFindFlights": false,
+    "showDomesticWebSpecial": false,
+    "smb2": true,
+    "logDna": {
+        "defaultLogLevel": "Warn",
+        "disabled": false,
+        "env": "test",
+        "ingestionKey": "822a15fb7bce17acb91904470aac2668"
+    },
+    "sabreOneOrder": {
+        "url": "https://shopaa-cert.sabre.com/dx/AADX/#/shop/flight-selection",
+        "enabled": true
+    },
+    "advancedSearchPage": {
+        "allowAllUsers": true,
+        "supportAllLocale": true,
+        "enableMobile": true
+    }
+}
